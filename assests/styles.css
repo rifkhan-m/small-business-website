@@ -1,10 +1,5 @@
-/* primary color Rebeccapurple */
+/* primary color rgb(234, 54, 128) */
 /* secondary color bootstrap .bg-body-secondary-gradient */
-
-.brand-name {
-    font-family: Gabriola, sans-serif !important;
-    font-size: 1.5rem !important;
-}
 
 .navbar-nav a.active {
   font-weight: 600;
@@ -12,8 +7,17 @@
   border-top: solid currentColor 2px;
 }
 
+.company-name {
+    font-family: Gabriola, sans-serif !important;
+    /* font-size: 2rem !important; */
+}
+
 #home, #products, #about, #contact {
   scroll-margin-top: 90px; 
+}
+
+.text-shadow-p {
+    text-shadow: 2px 2px 3px lavender;
 }
 
 #home img {
@@ -28,9 +32,9 @@
 }
 
 .hero-button {
-    color: rebeccapurple !important;
+    color: rgb(234, 54, 128) !important;
     background-color: white;
-    border: solid rebeccapurple 2px !important;
+    border: solid rgb(234, 54, 128) 2px !important;
     border-radius: 7px;
     font-weight: 600;
     padding: 4px 20px;
@@ -38,11 +42,13 @@
 
 .hero-button:hover, .hero-button:active, .hero-button:focus {
   color: white !important;
-  background-color: rebeccapurple !important;
+  background-color: rgb(234, 54, 128) !important;
+  border: solid rgb(234, 54, 128) 2px !important;
+  transition: border 0.5s ease, background-color 0.5s ease;
 }
 
 .stat-card {
-    background-color: rebeccapurple;
+    background-color: rgb(234, 54, 128);
     border-radius: 8px;
 }
 
@@ -58,6 +64,10 @@
     border: 1px solid gray;
     border-radius: 10px;
 }
+
+/* .product-card:hover {
+    border: 2px solid rgb(234, 54, 128);
+} */
 
 .product-card h3 {
     padding: 15px 15px 0 15px;
@@ -84,16 +94,24 @@
 }
 
 #contact a:hover {
-    color: rebeccapurple;
+    color: rgb(234, 54, 128);
     font-weight: 400;
 }
 
-footer img {
-    height: 40px;
+.company-name img {
+    height: 30px;
     width: auto;
-    padding: 5px;
 }
 
 footer hr {
     margin-top: 0 !important;
+}
+
+.developer-signature img {
+    width: 14px;
+    height: 14px;
+}
+
+.developer-signature a {
+    text-decoration: none;
 }
