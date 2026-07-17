@@ -9,7 +9,11 @@
 
 .company-name {
     font-family: Gabriola, sans-serif !important;
+<<<<<<< HEAD
     /* font-size: 2rem !important; */
+=======
+    font-size: 2rem !important;
+>>>>>>> 7d23c1958c8a521f49c4eee55289d4c41fa85fc8
 }
 
 #home, #products, #about, #contact {
